@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murodov Azizmurod's Website</title>
+    <link rel="shortcut icon" href="static/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="static/style/main.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+
+
+
+
+        
+    </style>
+</head>
+<body onload="hideLoader();">
+    <div class="loader" id="loader">
+        <div class="loader-wrapper">
+            <div class="loader-container">
+            <h1 class="lt">&lt</h1>
+            <h1 class="loader-c">/</h1>
+            <h1 class="lt" id="ltNd">&lt</h1>
+            </div>
+        </div>
+    </div>
+    <div class="cursor-dot-outline"></div>
+    <div class="cursor-dot"></div>
+    <div id="fullpage">
+        <div class="section">
+            <header>
+                <div class="logo">
+                    <h1 class="gletch" title=":)">:)</h1>
+                </div>
+                <div class="nav">
+                    <a href="#about"><h3 title="about">about</h3></a>
+                    <a href="#posts"><h3 title="posts">posts</h3></a>
+                </div>
+            </header>
+            <section class="hello" style="width: 80%; margin: 0 auto;">
+                <h1 title="Hello, friend!" style="font-size: 55pt; font-family: 'Title', sans-serif;">Hello, friend!</h1>
+                <p class="wave">My name is Azizmurod. I'm Web Developer</p>
+            </section>
+            <a class="scroll" href="#about">
+                <span class="link__arrow">
+                  <span></span>
+                  <span></span>
+                </span>
+                <span class="link__line"></span>
+                <span class="link__text">About</span>
+              </a>
+            <model-viewer id="model" class="unselectable model" auto-rotate src="static/models/scene.gltf" loading="eager"></model-viewer>
+        </div>
+        <div class="section">
+            <p class="matrix about">About me</p>
+            <div class="infos">
+                <p>I’m glad to see you visit my website. Okay, let me introduce myself :) My fullname is Murodov Azizmurod and I'm Web Developer from Navoi, Uzbekistan with more than 2 years of experience. I’m only 16 years old. I am code using many techlogies as Python3, JavaScript, PHP, SQL and Git.</p>
+                <p>Initially I started as a programmer from learning PHP and at that time I had some books about PHP. Then, through the One Million Uzbek Programmers project, I became interested in Python, and the language attracted me. So now the main language for writing code is Python, after HTML, of course :)</p>
+                <p>There will be more content soon )</p>
+            </div>
+            <!-- <model-viewer data-aos="fade-up camera-orbit="5deg 0deg" class="unselectable model2" orientation="45deg 45deg 0" auto-rotate src="static/models/scene.gltf" loading="eager" interpolation-decay="200"></model-viewer> -->
+        </div>
+        <div class="section">
+            <p class="matrix about">Some blog</p>
+            <div class="blogs">
+                <div class="post">
+                    <img src="https://v1rt.ru/upload/iblock/e6f/e6f27bd01178409217dd322e5a573d54.jpg" alt="">
+                    <div class="content">
+                        <span>Fri Jun 19 2020 <i class="line"></i> Category</span>
+                        <h1><a href="#">Post Example</a> </h1>
+                        <p>Sample small text. Lorem ipsum dolor sit amet.</p>
+                        <br><br>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="https://v1rt.ru/upload/iblock/e6f/e6f27bd01178409217dd322e5a573d54.jpg" alt="">
+                    <div class="content">
+                        <span>Fri Jun 19 2020 <i class="line"></i> Category</span>
+                        <h1><a href="#">Post Example</a> </h1>
+                        <p>Sample small text. Lorem ipsum dolor sit amet.</p>
+                        <br><br>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="https://v1rt.ru/upload/iblock/e6f/e6f27bd01178409217dd322e5a573d54.jpg" alt="">
+                    <div class="content">
+                        <span>Fri Jun 19 2020 <i class="line"></i> Category</span>
+                        <h1><a href="#">Post Example</a> </h1>
+                        <p>Sample small text. Lorem ipsum dolor sit amet.</p>
+                        <br><br>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="https://v1rt.ru/upload/iblock/e6f/e6f27bd01178409217dd322e5a573d54.jpg" alt="">
+                    <div class="content">
+                        <span>Fri Jun 19 2020 <i class="line"></i> Category</span>
+                        <h1><a href="#">Post Example</a> </h1>
+                        <p>Sample small text. Lorem ipsum dolor sit amet.</p>
+                        <br><br>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <center><a href="#">More</a></center>
+            </div>
+            <!-- <model-viewer data-aos="fade-up camera-orbit="5deg 0deg" class="unselectable model2" orientation="45deg 45deg 0" auto-rotate src="static/models/scene.gltf" loading="eager" interpolation-decay="200"></model-viewer> -->
+        </div>
+    </div>
+    
+
+    
+<!-- Screipts -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="static/js/main.js"></script>
+<script src="static/js/cursor.js"></script>
+<script src="static/js/parallax.js"></script>
+</body>
+</html>
